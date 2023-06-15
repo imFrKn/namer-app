@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('My first app:'),
+          Text('My first FLUTTER app:'),
           Text(appState.current.asLowerCase),
         ],
       ),
