@@ -39,6 +39,13 @@ class MyHomePage extends StatelessWidget {
         children: [
           Text('My first FLUTTER app:'),
           Text(appState.current.asLowerCase),
+           ElevatedButton(
+            onPressed: () {
+              print('button pressed!');
+            },
+            child: Text('Next'),
+          ),
+
         ],
       ),
     );
